@@ -61,7 +61,7 @@ function App() {
   };
 
   const changeFilter = e => {
-    filter({ filter: e.target.value });
+    setFilter(e.target.value);
   };
 
   return (
